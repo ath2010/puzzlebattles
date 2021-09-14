@@ -1,26 +1,19 @@
 {
-  "name": "chessground-examples",
-  "version": "6.0.1",
-  "description": "chessground examples",
-  "main": "dist/chessground-examples.js",
-  "author": "Thibault Duplessis",
-  "license": "GPL-3.0",
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
   "dependencies": {
-    "chess.js": "^0.10",
-    "chessground": "^7.11.0",
-    "page": "^1.7",
-    "snabbdom": "^0.7"
+    "bad-words": "^3.0.4",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "mongoose": "^5.12.13",
+    "node-cron": "^3.0.0",
+    "node-schedule": "^2.0.0",
+    "rand-token": "^1.0.1",
+    "socket.io": "^3.0.3"
   },
-  "devDependencies": {
-    "@types/jquery": "^3.5.5",
-    "browserify": "^16",
-    "gulp": "^4",
-    "gulp-sourcemaps": "^2",
-    "gulp-terser": "^1",
-    "tsify": "^3",
-    "typescript": "^4",
-    "vinyl-buffer": "^1",
-    "vinyl-source-stream": "^2",
-    "watchify": "^3"
+  "scripts": {
+    "start": "node index.js"
   }
 }
